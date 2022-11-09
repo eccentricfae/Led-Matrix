@@ -1,4 +1,3 @@
-TODO
-- rewrite pong (less global variables (pointer ok?), cleaner (shorter) callbacks)
-- rewrite snake similar to pong
-- rewrite anim?
+TODO:
+- videos to youtube and then make links in the picsandvids directory
+- git ignore
