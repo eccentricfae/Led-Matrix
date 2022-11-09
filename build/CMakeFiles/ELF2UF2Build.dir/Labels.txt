@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+/home/fae/Tech/uC/Led-Matrix/build/CMakeFiles/ELF2UF2Build
+/home/fae/Tech/uC/Led-Matrix/build/CMakeFiles/ELF2UF2Build.rule
+/home/fae/Tech/uC/Led-Matrix/build/CMakeFiles/ELF2UF2Build-complete.rule
+/home/fae/Tech/uC/Led-Matrix/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+/home/fae/Tech/uC/Led-Matrix/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+/home/fae/Tech/uC/Led-Matrix/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+/home/fae/Tech/uC/Led-Matrix/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+/home/fae/Tech/uC/Led-Matrix/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+/home/fae/Tech/uC/Led-Matrix/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+/home/fae/Tech/uC/Led-Matrix/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule

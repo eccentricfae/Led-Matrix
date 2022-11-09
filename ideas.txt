@@ -1,0 +1,9 @@
+Ideas for future projects for this led-matrix:
+- Snake: difficulty chooser (in form of columns with different height?)
+- endless runner
+- make the printing to the matrix run on the second core? so that there never 
+  are any weird artifacts on the matrix because the uC couldnt process data quicker 
+  and had to "abandon" printing to the matrix for a couple of ms (it would require 
+  a major refactorization of the whole codebase of the project - IDK if I ahe the time
+  and the will to do this :/)
+

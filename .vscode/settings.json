@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "animations.h": "c",
+        "stdlib.h": "c",
+        "snake.h": "c",
+        "74hc595.h": "c",
+        "board.h": "c",
+        "utilities.h": "c"
+    }
+}
