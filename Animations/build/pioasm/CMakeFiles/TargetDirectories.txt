@@ -1,3 +1,0 @@
-/home/fae/Tech/uC/Led-Matrix/Animations/build/pioasm/CMakeFiles/pioasm.dir
-/home/fae/Tech/uC/Led-Matrix/Animations/build/pioasm/CMakeFiles/edit_cache.dir
-/home/fae/Tech/uC/Led-Matrix/Animations/build/pioasm/CMakeFiles/rebuild_cache.dir

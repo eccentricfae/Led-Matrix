@@ -1,3 +1,0 @@
-/home/fae/Tech/uC/Led-Matrix/Pong/build/pioasm/CMakeFiles/pioasm.dir
-/home/fae/Tech/uC/Led-Matrix/Pong/build/pioasm/CMakeFiles/edit_cache.dir
-/home/fae/Tech/uC/Led-Matrix/Pong/build/pioasm/CMakeFiles/rebuild_cache.dir
