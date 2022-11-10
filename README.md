@@ -1,10 +1,6 @@
 TODO: 
-- edit the mani picture of the matrix to look nicer?
 - take a better main picture of the matrix (without the "input device")?
-- more intricate introduction?
-- ideas behind the design od the matrix? (in INTRODUCTION or separate heading?)
 - explaining some of the code (or nah cuz too long?)
--table of contents if the page here gets too long
 # LED-MATRIX
 ## SUMMARY
 Hi all! This repo is a project with which I wanted to test my knowledge of digital circuit design, following the end of one of my college classes. 
@@ -20,7 +16,7 @@ The cathodes of all 16 LEDs in one column are connected, and it us through the c
 
 The anodes of the LEDs are connected in rows of 8 to PNP BJTs, and two PNP's (two PNPs that toghether make up a single 16 LED row) base pins are connected toghether. That one connection is what controls which row is being fed the power, meaning: which row is being allowed to light up. The connection of the two base pins of aforementioned PNPs are connected to NPN controlling them (see note (1) below), and the NPNs, controlling the PNPs (controlling rows of LEDs), are being controlled by two (cascaded) shift registers connected to RPI Pico. 
 
-(1) The PNPs needed to be controlled by an additional NPN BJT because the operating voltage of shift registers was 3.3 V, to make it usable with Pico, but the voltage on the emitte pin of the PNPs was 5 V. The 3.3 V on the output of the registers would not be high enough to turn the PNP off, so the PNPs would always be on. See [here](/docs/aux/) for how a PNP can be controlled with NPN.
+(1) The PNPs needed to be controlled by an additional NPN BJT because the operating voltage of shift registers was 3.3 V, to make it usable with Pico, but the voltage on the emitte pin of the PNPs was 5 V. The 3.3 V on the output of the registers would not be high enough to turn the PNP off, so the PNPs would always be on. See [here](/docs/aux/explanation_NPN_PNP.pdf) for how a PNP can be controlled with NPN.
 
 ## SOFTWARE SIDE
-//
+// TODO
