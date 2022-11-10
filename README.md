@@ -1,6 +1,3 @@
-TODO: 
-- take a better main picture of the matrix (without the "input device")?
-- explaining some of the code (or nah cuz too long?)
 # LED-MATRIX
 ## SUMMARY
 Hi all! This repo is a project with which I wanted to test my knowledge of digital circuit design, following the end of one of my college classes. 
