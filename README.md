@@ -20,7 +20,7 @@ The cathodes of all 16 LEDs in one column are connected, and it us through the c
 
 The anodes of the LEDs are connected in rows of 8 to PNP BJTs, and two PNP's (two PNPs that toghether make up a single 16 LED row) base pins are connected toghether. That one connection is what controls which row is being fed the power, meaning: which row is being allowed to light up. The connection of the two base pins of aforementioned PNPs are connected to NPN controlling them (see note (1) below), and the NPNs, controlling the PNPs (controlling rows of LEDs), are being controlled by two (cascaded) shift registers connected to RPI Pico. 
 
-(1) The PNPs needed to be controlled by an additional NPN BJT because the operating voltage of shift registers was 3.3 V, to make it usable with Pico, but the voltage on the emitte pin of the PNPs was 5 V. The 3.3 V on the output of the registers would not be high enough to turn the PNP off, so the PNPs would always be on. See [here]() for how a PNP can be controlled with NPN.
+(1) The PNPs needed to be controlled by an additional NPN BJT because the operating voltage of shift registers was 3.3 V, to make it usable with Pico, but the voltage on the emitte pin of the PNPs was 5 V. The 3.3 V on the output of the registers would not be high enough to turn the PNP off, so the PNPs would always be on. See [here](/docs/aux/) for how a PNP can be controlled with NPN.
 
 ## SOFTWARE SIDE
 //
