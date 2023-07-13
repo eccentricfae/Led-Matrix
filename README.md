@@ -4,7 +4,8 @@ Hi all! This repo is a project with which I wanted to test my knowledge of digit
 The "digital circuit design" part of this project is a design of 16x16 LEDs matrix, controlled by PNPs and NPNs BJTs, which in turn are controlled by shift registers, and lastly - RPI Pico.
 The "software" side of the project are subprojects intended to be displayed on the built matrix: (very) simple animation and two basic games: "snake" and "pong".
 ### SEE [pics-and-videos](/docs/pics-and-videos) for pictures and videos of the project :smile:
-![TEST](/docs/pics-and-videos/led_matrix.jpg)
+![TEST](/docs/pics-and-videos/pong.gif)
+![TEST](/docs/pics-and-videos/snake.gif)
 
 ## HARDWARE SIDE
 The main part of the hardware-side of the project is the LED matrix. The matrix is a 16x16 matrix of green LED's. The way this matrix works is quite simple: the circuits light up selected LEDs in one row at a time, but since they are being lit up at a fast pace, this gives the illusion of all of the rows being lit up at the same time. Based on the software written, one "frame" (singular iteration of lighting up all rows of the matrix) takes about 16ms, which results in a 60Hz refresh rate, not that it matters really (re: my code). 
